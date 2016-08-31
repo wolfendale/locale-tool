@@ -1,0 +1,20 @@
+{
+  "name": "locale-reporter",
+  "version": "1.0.0",
+  "description": "A tool to check multiple rails locale files and report on duplicates and inconsistencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Wolfendale",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "commander": "^2.9.0",
+    "deep-sort-object": "^1.0.1",
+    "flat": "^2.0.1",
+    "js-yaml": "^3.6.1",
+    "lodash": "^4.15.0",
+    "mustache": "^2.2.1"
+  }
+}
